@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="fontawesome-free-5.12.1-web/css/all.min.css" /> 
+        <title>Carte interactive de location de vélos</title>
+    </head>
+
+    <body>
+    	<div id="bloc_page">
+    		<header>
+    			<div id="titre_principal">
+    				<div id="logo_velib">
+    					<img src="image/logo-velib.gif" alt="Logo de Velib" />
+    				</div>
+    			</div>	
+
+				<nav>
+                    <ul>
+                        <li><a href="#accueil">Mode d'emploi</a></li>
+                        <li><a href="#application">Application</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="accueil">
+            	<!-- Conteneur principal de tout le diaporama -->
+            	<div class="diaporama">
+            		<!-- Conteneur des diapos -->
+            		<div class="diapos">
+
+            			<!-- 1er diapo -->
+            			<div class="diapo actif">
+            				<img src="image/diaporama/test1.jpg" alt="1" />
+            				<div class="caption">
+            					<h2>Bienvenue sur Velib</h2>
+            					<p>Découvrez comment utiliser l'application</p>
+            				</div>
+            			</div>	
+            		
+            			<!-- 2ème diapo -->
+            			<div class="diapo">
+            				<img src="image/diaporama/test2.jpg" alt="2" />
+            				<div class="caption">
+            					<p>Parcourez la carte afin de trouver une station</p>
+            				</div>
+            			</div>
+
+            			<!-- 3ème diapo -->	
+            			<div class="diapo">
+            				<img src="image/diaporama/test1.jpg" alt="3" />
+            				<div class="caption">
+            					<p>Sélectionnez le marqueur de la station que vous avez choisi</p>
+            				</div>	
+            			</div>
+
+            			<!-- 4ème diapo -->
+            			<div class="diapo">
+            				<img src="image/diaporama/test2.jpg" alt="4" />
+            				<div class="caption">
+            					<p>Vérifier s'il y'a encore des vélos disponible puis cliquez sur "Réserver"</p>
+            				</div>
+            			</div>
+
+            			<!-- 5ème diapo -->
+            			<div class="diapo">
+            				<img src="image/diaporama/test1.jpg" alt="5" />
+            				<div class="caption">
+            					<p>Signez dans le carré prévu à cet effet puis validez pour terminer votre réservation</p>
+            				</div>
+            			</div>
+
+            			<!-- 6ème diapo -->
+            			<div class="diapo">
+            				<img src="image/diaporama/test2.jpg" alt="6" />
+            				<div class="caption">
+            					<p>Vous disposez maintenant de 20 minutes pour aller chercher votre vélo. À l'issue des 20 minutes votre réservation est annulé</p>
+            				</div>	
+            			</div>
+
+            		</div>	
+
+            		
+            		<!-- Flèches de navigation -->
+            		<i id="nav-gauche" class="fas fa-angle-left"></i>
+            		<i id="nav-droite" class="fas fa-angle-right"></i>
+
+            		
+
+            	</div>
+
+            	
+            	
+
+            </section>
+
+            <Section id="application">
+            	<div id="carte"></div>
+            	<div id="reservation"></div>
+
+            </Section>
+    	</div>
+
+    	<!-- Fichiers JS -->
+    	<script src="js/scripts.js"></script>
+    </body>
+
+</html>    
